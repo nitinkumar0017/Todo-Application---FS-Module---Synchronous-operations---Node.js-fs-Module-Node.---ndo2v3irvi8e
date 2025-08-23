@@ -1,0 +1,18 @@
+{
+    "name": "todo_fs_module",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha '__tests__/**/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+      "chai": "^4.3.7",
+      "mocha": "^10.2.0",
+      "uuid": "^9.0.1",
+      "mochawesome": "^6.2.1"
+    }
+  }
+  
